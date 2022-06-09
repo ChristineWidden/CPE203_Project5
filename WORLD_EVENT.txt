@@ -1,0 +1,24 @@
+1.
+
+Christine Widden: Turtle entity, combined code, most textures
+
+Joseph Haluska: Custom event, custom background, altered octo entity
+
+2.
+
+Event is triggered by mouse click on the screen.
+
+3.
+
+Event transforms all background spaces to skull spaces in a 3x3 grid around the click location. Octo entities within the area are transformed. Turtles are spawned in the remaining empty spaces.
+
+
+4.
+
+Octo entities within the area are transformed into animated reindeer and begin to behave similar to crab, attempting to collect seagrass.
+
+
+5.
+Turtles target and eat OctoNotFulls, finding them using the Astar pathfinding algorithm. They have a simple 4-step animation.
+
+6. See number 1
